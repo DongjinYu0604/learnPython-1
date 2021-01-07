@@ -6,6 +6,16 @@
 # create project > create new python file로
 # 간단한 메시지를 출력하는 프로그램을 작성하여
 
+#
+# 0. Python 설치
+#    https://www.python.org/downloads/ 에서 다운로드 설치
+#    Jan.07, 2021 현재, latest Python 3 Release - Python 3.9.1 은
+#    2020년 12월 7일자로 released.
+# 0. Pycharm 설치
+#    https://www.jetbrains.com/ko-kr/pycharm/  에서 community 다운로드 설치
+#    Jan.07, 2021 현재, 2020.3.2 버전, 빌드 203.6682.179, 2020-12-30
+#
+#
 # 1. 실행을 확인한다.
 # 실행 단축키 : Shift + F10
 #
