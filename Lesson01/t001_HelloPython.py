@@ -15,15 +15,18 @@
 #    https://www.jetbrains.com/ko-kr/pycharm/  에서 community 다운로드 설치
 #    Jan.07, 2021 현재, 2020.3.2 버전, 빌드 203.6682.179, 2020-12-30
 #
-#
-# 1. 실행을 확인한다.
-# 실행 단축키 : Shift + F10
+# ※ 파이썬 설치없이 파이썬 실행하기 :
+#   a. 파이썬 메인 홈페이지 중간부분에 노란색 버튼 클릭
+#   b. 구글 colab 사용하기
 #
 print('Hello, Python with PyCharm')
+# 1. 실행을 확인한다.
+# 실행 단축키 : Ctrl + Shift + F10
+
 # 위 출력문의 실행결과를 확인하고,
 
 #  먼저, 주석에 대해 설명하자.
-#  #기호는 한 행 주석,
+#  #기호는 한 행 주석,  단축키는 Ctrl + /
 #    ''' ~ ''' 는 블록 주석
 # TODO: 주석
 # TODO: 주석문은 연두색으로 눈에 띄게 표시되고, 오른쪽으로 파란색 bar가 생긴다.
@@ -34,7 +37,7 @@ print('Hello, Python with PyCharm')
 #     먼저, 왼쪽의 줄 번호 line number. Ctrl + G를 이용하여 원하는 라인이동 가능
 #
 # 3. 우측 상단의 빨간 느낌표는 현재 이 파일에 sysntax error가 숫자만큼 있다는 의미
-
+#
 #
 # 4. 편집 창의 빈공간에서 마우스 우클릭 Local History > Show History 클릭
 #     해당 파일이 어떻게 수정되어 왔는지가 저장된다.
