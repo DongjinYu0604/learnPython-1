@@ -1,6 +1,6 @@
 '''
 Lesson01 파이썬 기초
-t002 - Basic Grammar and Usage
+t0102_BasicGrammar.py
 [학습내용]
 1. 세미콜론
 Java나 C언어는 구문이 끝날 때 ;(세미콜론)을 붙인다. 파이썬은 붙이지 않는다.

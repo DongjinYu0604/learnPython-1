@@ -1,7 +1,7 @@
 #        1         2         3         4         5         6         7         8
 #2345678901234567890123456789012345678901234567890123456789012345678901234567890
 # lesson01 파이썬 기초
-# t001 : hello.py
+# t0101_HelloPython.py
 # python, pycharm 설치 및 환경 설정  설정 후
 # create project > create new python file로
 # 간단한 메시지를 출력하는 프로그램을 작성 실행하고

@@ -1,5 +1,5 @@
 # Lesson01 파이썬 기초
-# t004 - 입출력함수
+# t0104_inputOutput.py - 입출력함수
 # 1. input 함수 : 사용자로 부터 입력 받기
 # 변수 = input(메시지내용)
 a = input("a값을 입력해주세요.")
