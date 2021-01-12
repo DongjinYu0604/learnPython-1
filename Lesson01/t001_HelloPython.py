@@ -4,7 +4,8 @@
 # t001 : hello.py
 # python, pycharm 설치 및 환경 설정  설정 후
 # create project > create new python file로
-# 간단한 메시지를 출력하는 프로그램을 작성하여
+# 간단한 메시지를 출력하는 프로그램을 작성 실행하고
+# Git과 Github를 통하여 버전 관리하는 방법을 설명함.
 
 #
 # 0. Python 설치
