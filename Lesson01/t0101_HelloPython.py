@@ -12,6 +12,28 @@
 #    https://www.python.org/downloads/ 에서 다운로드 설치
 #    Jan.07, 2021 현재, latest Python 3 Release - Python 3.9.1 은
 #    2020년 12월 7일자로 released.
+
+# 0. jupyter notebook 설치와 실행
+#    cmd prompt에서 > pip3 install jupyter
+#    cmd prompt에서 > jupyter notebook --generate-config
+#    jupyter_notebook_config 파일이 생성된 것을 확인할 수 있다.
+#    이 파일에서 #c.NotebookApp.notebook_dir = '' 문장을 수정해서 기본 폴더를 지정한다.
+#
+#    jupyter notebook 기본사용법 설명
+#    - 새 파일 만들기 : New > Python3
+#    - ESC + y / m : command mode / markdown 모드
+#    - a / b : 현재 셀 위(아래)에 셀 추가
+#    - c/ v / x : 복사, 붙여넣기, 자르기, Shift + V : 현재 셀 위로 붙이기
+#    - dd : 현재 셀 삭제
+#    - Ctrl + Enter : 현재 셀 실행만
+#    - Shift + Enter :  실행 후 아래(셀 없으면) 빈 셀 추가(또는 아래 셀로 이동)
+#    - Shift + m : 해당 셀 & 아래 셀 합치기
+#    - Ctrl + Shift + - : 커서 위치 기준, 현재 셀 나누기
+#    셀의 개념
+#    명령모드와 편집모드의 변경
+#
+
+
 # 0. Pycharm 설치
 #    https://www.jetbrains.com/ko-kr/pycharm/  에서 community 다운로드 설치
 #    Jan.07, 2021 현재, 2020.3.2 버전, 빌드 203.6682.179, 2020-12-30
