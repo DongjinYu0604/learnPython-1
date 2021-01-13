@@ -30,7 +30,11 @@
 
 - 온라인 자료
 
-https://nostarch.com/pythoncrashcourse2e/  또는 http://ehmatthes.github.io/pcc_2e/
+[텍스트북의 소스 등](https://github.com/swcodingschool/learnPython/tree/main/txtBook2ed)  
+
+
+
+
 
 
 
