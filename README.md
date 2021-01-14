@@ -35,6 +35,7 @@
 3. 참고교재 [초보자를 위한 파이썬 300제](https://wikidocs.net/book/922)
 4. 참고교재 [파이썬으로 배우는 알고리즘 트레이딩(개정판-2쇄)](https://wikidocs.net/book/110)
 5. [파이썬 다큐먼트(영문)](https://docs.python.org/3/) 
+6. [파이썬 다큐먼트(한글)](https://docs.python.org/ko/3.9/contents.html)
 
 
 
