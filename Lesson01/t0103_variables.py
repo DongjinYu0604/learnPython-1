@@ -14,6 +14,10 @@ t0103_varaiables.py - 변수와 타입
   - 파이썬의 키워드(if, for, while, and, or 등)는 사용할 수 없다.
   - 변수명에는 의미가 있어야 한다.
 4. 변수에는 숫자 뿐만 아니라 문자열도 넣을 수 있다.
+5. 데이터타입 :
+   숫자 : 정수, 실수, 복소수
+   문자 : 문자, 문자열
+   논리 : 불bool
 '''
 x = 10  # x라는 변수에 상수값 10을 대입
 y = 'hello, world'  # y라는 변수에 'hello, world' 문자열 값을 대입.
@@ -50,8 +54,11 @@ print(type(z))
 universeNumber = 1_234_567_890
 # 정의할 때 밑줄을 사용하더라도, 출력할 때는 항상 밑줄 없이 출력됨
 print(universeNumber)
+# 변수의 형변환 : 새타입(값)
+newInt = int(1.234)
+type(newInt)
 
-# 6. 변수 여려 개를 한 번에 만들기
+# 6. 변수 여러 개를 한 번에 만들기
 a, b, c = 10, 20, 30
 print(a, b, c)
 # 변수 값이 모두 같아도 된다면..
@@ -87,5 +94,4 @@ Although never is often better than *right* now.
 If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
-
 '''

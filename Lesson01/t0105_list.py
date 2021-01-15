@@ -10,12 +10,13 @@ t0105_list.py
 kGenerals = ['괴유', '을지문덕', '연개소문', '이순신']
 print(kGenerals)
 
-
 # 2. 리스트 항목에 접근하기
+# 인덱스 활용
 print(kGenerals[0])  # 인덱스 위치는 0에서 시작. zero-base
 print(kGenerals[-1])  # 리스트의 마지막 항목
 
 # 3. 리스트 항목변경, 추가, 제거
+# append(), insert(인덱스, 값)
 kGenerals[3] = '양만춘'
 print(kGenerals)
 kGenerals.append('고선지')  # 리스트의 끝에 항목 추가
@@ -24,25 +25,31 @@ kGenerals.insert(1,'온달')  # 지정 인덱스에 항목 추가
 print(kGenerals)
 
 #4. 리스트에서 항목제거
+#  del 명령을 인덱스와 함께
 del kGenerals[0] # del 리스트이름[제거할항목의인덱스]
 print(kGenerals)
 popped = kGenerals.pop() # 마지막 항목을 꺼내어 popped에 
 print(popped)
 print(kGenerals) # 나머지 항목 출력
 # 리스트의 아무위치에서나 항목 꺼내기
+# pop(인덱스)
 first = kGenerals.pop(0)
 print(first)
 print(kGenerals)
 # 값으로 항목 제거하기
+# remove(키값)
 kGenerals.remove('양만춘')  # 리스트에 같은 값이 여러 개 있다면 첫 번째 항목만 제거함
 print(kGenerals)
 
 #5. 리스트 정리하기
 cars = ['SONATA', 'K7', 'GRANDEUR', 'SM5', 'AVANTE']
+# 정렬 : sort(), sort(reverse=??)
 cars.sort()
 print(cars)
 cars.sort(reverse=True) # descending sort
 print(cars)
+# 뒤집기 reverse()
 cars.reverse() # 역순으로 바꾸기
 print(cars)
+# 길이 len()
 print(len(cars)) # 리스트 길이 구하기
