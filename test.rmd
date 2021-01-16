@@ -1,6 +1,0 @@
----
-title: "파이썬 기초문법"
-author: "swcodingschool.com / CodeTech., Co.Ltd."
-date: "2021-01-16"
-output: html_document
----
