@@ -1,4 +1,4 @@
-#### swcodingschool's Python Programming 
+#### swcodingschool's Coding Class
 
 # 파이썬 기초 프로그래밍 
 
